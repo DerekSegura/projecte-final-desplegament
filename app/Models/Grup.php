@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Grup extends Model{
+
+    protected $fillable = [
+        'nom',
+        'aula',
+        'professor_id',
+    ];
+
+    public function professor(){
+        return $this->belongsTo(Professor::class);
+    }
+
+    public function alumnes(){
+    return $this->hasMany(Alumne::class, 'grup', 'id');
+    }
+
+
+}
