@@ -9,7 +9,7 @@
 @section('content')
 <div class="container mt-4 bg-white p-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1 class="mb-0">Departaments</h1>
+        <h1 class="mb-0">Departaments SIUUUU</h1>
         @auth
         <a href="{{ route('departaments.create') }}" class="btn btn-primary">Nou departament</a>
         @endauth
