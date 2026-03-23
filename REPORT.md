@@ -234,7 +234,7 @@ Navegador accedint a http://localhost:8000 mostrant l'aplicació desplegada corr
 
 - Git: 6h  
 - Docker: 6h  
-- Documentació: 1h  
+- Documentació: 3h  
 
 ---
 
