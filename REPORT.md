@@ -166,6 +166,7 @@ Serveis definits:
 - Servidor web
 
 **Captura i descripció de com és:**
+
 ![alt text](imatgesReportMD/imagen39.webp)
 
 Fitxer docker-compose.yml amb els tres serveis definits: app (contenidor Laravel amb volums i xarxa laravel_net), webserver (Nginx:alpine exposant el port 8000:80) i db (MySQL 8.0 amb la base de dades projecteFinalLaravel, contrasenya usuari i volum persistent db_data).
